@@ -2,10 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-:root {
-  --font-primary: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
-    sans-serif;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* Reusable class */
@@ -16,13 +13,13 @@
 .section_wide {
   width: 100%;
   margin: 0 auto;
+  position: relative;
 }
 .btn {
   font-size: 1rem;
   color: #f0fdf4;
-  padding: 15px 20px;
-  background-color: #469165;
-  align-items: center;
+  padding: 12px 25px;
+  background: #469165;
   text-align: center;
   border: none;
   border-radius: 5px;
@@ -50,14 +47,14 @@
   font-size: 18px;
   font-weight: 500;
 }
-#nav_hero ul li a:hover{
+#nav_hero ul li a:hover {
   background-color: #ff934ac4;
   color: #333;
   border-radius: 5px;
   padding: 10px 15px;
 }
-#nav_hero ul li a:visited{
-color: #000000;
+#nav_hero ul li a:visited {
+  color: #000000;
 }
 #nav_hero .nav_links {
   display: flex;
@@ -66,12 +63,93 @@ color: #000000;
 
 /* Nav End */
 /* Hero Start */
-#hero_main {
-  height: 674px;
-
+.hero_image {
   background-image: url(/assets/hero-bg.png);
+  height: 675px;
+  background-size: cover;
 }
 
+#hero_main {
+  width: 1360px;
+  margin: 0 auto;
+  padding-top: 100px;
+  align-items: center;
+  justify-self: center;
+  text-align: center;
+}
+.rectangle_group {
+  margin-left: 10px;
+}
+.big_round {
+  width: 18px;
+  height: 18px;
+  background-color: #7dfab183;
+  border-radius: 20px;
+  position: relative;
+}
+.middle_round {
+  width: 14px;
+  height: 14px;
+  background-color: #7dfab1a9;
+  border-radius: 20px;
+  position: absolute;
+  margin: 2px 2px;
+}
+.small_round {
+  width: px;
+  height: 8px;
+  background-color: #58ff9d;
+  border-radius: 20px;
+  margin: 3px 3px;
+}
+.early_access {
+  display: flex;
+  gap: 10px;
+  width: 230px;
+  height: 35px;
+  justify-content: flex-start;
+  background-color: #f0fdf4;
+  margin: 0 auto;
+  border-radius: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#hero_main h1 {
+  color: #e5e7eb;
+  max-width: 1360px;
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+.span_text {
+  color: #58ff9d;
+}
+.private_message {
+  color: #f0fdf4;
+  width: 570px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.button_group {
+  padding-top: 15px;
+}
+
+.see_btn{
+  border: 1px solid white;
+  font-size: 1rem;
+  color: #f0fdf4;
+  padding: 8px 20px;
+  background: #46916500;
+  text-align: center;
+  border-radius: 5px;
+}
+button{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
 /* card section */
 #section_card {
   width: 1360px;

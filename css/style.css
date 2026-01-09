@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: inter;
+}
+:root {
+  --font-primary: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+    sans-serif;
+}
+
+/* Reusable class */
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+.section_wide {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: white;
+}
+.btn {
+  padding: 10px 15px;
+}
+/* Nav Bar */
+
+#nav_hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+
+#nav_hero ul li {
+  list-style: none;
+}
+#nav_hero ul li a {
+  text-decoration: none;
+}
+#nav_hero .nav_links {
+  display: flex;
+  gap: 30px;
+}
+
+/* Nav End */
+/* Hero Start */
+#hero_main {
+  height: 674px;
+
+  background-image: url(/assets/hero-bg.png);
+}
+
+/* card section */
+
+#section_card .section_title {
+  text-align: center;
+  padding: 40px;
+}
+#section_card .section_title h2 {
+  font-size: 48px;
+  color: #001931;
+  font-weight: 800;
+  padding-top: 30px;
+}
+#section_card .section_title p {
+  font-size: 16px;
+  color: #393f44;
+  font-weight: 400;
+  padding-top: 5px;
+}
+#section_card .card_group {
+  display: flex;
+  gap: 30px;
+}
+#section_card .card_group .card_one {
+  width: 320px;
+  height: 300px;
+  padding: 24px;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid #e5e7eb;
+}
+.card_one:hover {
+  transform: translateY(-6px);
+  background: #f0fdf4;
+  border-color: #22c55e;
+  transform: translateY(-4px);
+}
+.round {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(249, 85, 85, 1);
+  border-radius: 30px;
+}
+.rectangle_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+.icon_image {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.card_title {
+  padding-top: 15px;
+  text-align: center;
+}
+#section_card .card_title h3 {
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+/* Second Brain */
+#brain_section {
+  display: flex;
+  gap: 60px;
+  padding: 120px 0;
+  align-items: center;
+}
+.check_texts {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+.solution {
+  color: #469165;
+}
+.solution_title {
+  font-size: 48px;
+  font-weight: 800;
+  padding: 15px 0;
+}
+.solution_title_p {
+  width: 500px;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 5px 0 30px 0;
+}

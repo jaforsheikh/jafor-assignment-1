@@ -20,7 +20,7 @@
 .btn {
   font-size: 1rem;
   color: #f0fdf4;
-  padding: 10px 15px;
+  padding: 15px 20px;
   background-color: #469165;
   align-items: center;
   text-align: center;
@@ -34,10 +34,12 @@
 /* Nav Bar */
 
 #nav_hero {
+  width: 1360px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 80px;
+  margin: 0 auto;
 }
 
 #nav_hero ul li {
@@ -45,6 +47,17 @@
 }
 #nav_hero ul li a {
   text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+#nav_hero ul li a:hover{
+  background-color: #ff934ac4;
+  color: #333;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+#nav_hero ul li a:visited{
+color: #000000;
 }
 #nav_hero .nav_links {
   display: flex;

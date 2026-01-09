@@ -64,7 +64,7 @@
 /* Nav End */
 /* Hero Start */
 .hero_image {
-  background-image: url("assets/hero-bg.png");
+  background-image: url("/assets/hero-bg.png");
   height: 675px;
   background-size: cover;
 }

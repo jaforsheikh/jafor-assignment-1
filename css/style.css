@@ -64,12 +64,13 @@
 /* Nav End */
 /* Hero Start */
 .hero_image {
-  background-image: url("assets/hero-bg.png"); /* Add repo name */
+  background-image: url("jafor-assignment-1/assets/hero-bg.png");
   height: 675px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
+
 #hero_main {
   width: 1360px;
   margin: 0 auto;
